@@ -2,7 +2,7 @@
 
 print('Solve the problem: 4 * 100 - 54: ')
 solution = 4 * 100 - 54
-user_solution = input('Enter your solution: ')
+user_solution = int(input('Enter your solution: '))
 
 if user_solution == solution:
     print(f'Your solution: {user_solution} \n'
